@@ -124,7 +124,7 @@ public class QwenService extends AbstractLlmService {
                         if (line.isEmpty() || line.equals("data: [DONE]")) {
                             continue;
                         }
-                        if (line.trim().startsWith("data:")) {
+                        if (line.replaceAll("\\s", "").startsWith("data:")) {
                             String jsonData = line.substring(6);
                             try {
                                 Map<String, Object> data = objectMapper.readValue(jsonData,
