@@ -146,9 +146,9 @@
             <version>1.0.53</version>
         </dependency>
         <!-- 阿里云STT -->
-        <dependency>    
-            <groupId>com.alibaba.nls</groupId>  
-            <artifactId>nls-sdk-transcriber</artifactId>   
+        <dependency>
+            <groupId>com.alibaba.nls</groupId>
+            <artifactId>nls-sdk-transcriber</artifactId>
             <version>2.2.1</version>
         </dependency>
         <!-- 阿里云TTS -->
@@ -184,7 +184,7 @@
             <resource>
                 <directory>src/main/resources</directory>
                 <includes>
-                    <include>**/*</include> 
+                    <include>**/*</include>
                 </includes>
             </resource>
         </resources>
